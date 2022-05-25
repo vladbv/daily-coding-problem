@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "problem-1",
+  "version": "1.0.0",
+  "main": "obj.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
