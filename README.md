@@ -40,3 +40,21 @@ Given an array of integers, find the first missing positive integer in linear ti
 For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 
 You can modify the input array in-place.
+
+<h2>Problem 3</h2>
+
+This problem was asked by Jane Street.
+
+cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+
+Given this implementation of cons:
+
+```javascript
+function cons(a, b) {
+  function pair(cb) {
+    return cb(a, b);
+  }
+  return pair;
+}
+```
+Implement car and cdr.
