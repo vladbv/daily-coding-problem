@@ -10,11 +10,11 @@ newNumb[i] = newNumb[i - 1] * list[i - 1];
 let product = 1;
 
 for(let i = newNumb.length; i >= 0; i--){
-	newNumb[i] *= product;
-	product *= list[i];
+	newNumb[i - 1] *= product;
+	product *= list[i - 1];
 }
 
 return newNumb;
 }
 
-console.log(twoSums([1, 2, 3, 4, 5]);
+console.log(twoSums([1, 2, 3, 4, 5]));
