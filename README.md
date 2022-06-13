@@ -256,9 +256,18 @@ For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
 <h2>Problem 24</h2>
+This problem was asked by Amazon.
 
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character.
+
+For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+<h2>Problem 25</h2>
 This problem was asked by Google.
 
 The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
 
 Given two strings, compute the edit distance between them.
+
+

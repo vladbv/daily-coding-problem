@@ -1,49 +1,69 @@
-// Problem 24
-// This problem was asked by Google.
+
+// This problem was asked by Amazon.
 //
-// The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other.
-// For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+// Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character.
 //
-// Given two strings, compute the edit distance between them.
+// For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+//
+// Implement run-length encoding and decoding.
+// You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
+import isNumber from 'is-number' // npm package 'is-number'
 
-// Returning the minimum number of character insertions, deletions, substitutions
+function stringEncoding(string){
+if(string.length === 0) return '';
 
-function editDistance(word1, word2){
-    if(word1 === word2) return 0;
-    if(word1.length === 0) return word2.length;
-    if(word2.length === 0) return word1.length;
+let currChar = string.charAt(0);
+let count = 0;
+let encoding = '';
 
-    const dp = [...Array(word1.length + 1)].map( () => Array(word2.length + 1 ));
-    
-    // fill the first row with 0 because empty string edit distance
-    for (let c = 0; c < dp[0].length; c++){
-        dp[0][c] = c;
-    }
-    // fill  the first column with 0 because of an empty string edit distance
-    for (let r = 0; r < dp.length; r++) {
-        dp[r][0] = r;
-    }
+	for(let i = 1; i < string.length; i++){
+		const char = string.charAt(i);
+		if(char === currChar) count++;
+		else {
+			encoding += count + currChar;
 
-    for(let r = 1; r < dp.length; r++){
-        for (let c = 1; c < dp[0].length; c++){
-            const word1Char = word1.charAt(r - 1);
-            const word2Char = word2.charAt(c - 1);
+			// reseting
+			count = 1;
+			currChar = char;
+		}
+	}
+	
+	encoding += count + currChar;
 
-            if(word1Char === word2Char) {
-                dp[r][c] = dp[r - 1][c - 1];
-            } else {
-                const replaceEditDistance = dp[r - 1][c - 1];
-                const deleteEditDistance = dp[r][c - 1];
-                const insertEditDistance = dp[r - 1][c];
+	return encoding;
+	
+}
 
-                dp[r][c] = Math.min(replaceEditDistance, deleteEditDistance, insertEditDistance) + 1;
-            }
-        }
-    }
+// Return the decoding of a string
 
-    return dp[word1.length][word2.length];
+function stringDecoding(string){
+
+if(string.length === 0) return '';
+	let currCount = 0;
+	let i = 0;
+	let decoding = '';
+
+	while(i < string.length){
+		const char = string.charAt(i);	
+		if(isNumber(char)) {
+			const num = Number(char);
+			currCount = currcount * 10 + num;
+		} else{
+			decoding = addCountAmount(decoding, char, currCount);
+			currCount = 0;
+		}
+		i++;
+	}
+	return decoding;
 
 }
-console.log(editDistance('kitten', 'sitting'))
 
+// Returning the X count of characters to the end of a string
+function addCountAmount(string, char, count){
+	for(let i = 1; i <= count; i++){
+string += char;
+
+	}
+	return string;
+}
