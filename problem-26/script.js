@@ -1,4 +1,4 @@
-// Problem 29
+// Problem 26
 //This problem was asked by Jane Street.
 //
 // Suppose you are given a table of currency exchange rates, represented as a 2D array.
