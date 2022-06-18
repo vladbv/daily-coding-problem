@@ -30,7 +30,7 @@ function totalNQueens(n) {
 function helper(row, n, col, tlbr, trbl) {
     let result = 0;
     for(let i = 0; i < n; i++){
-        if(!col[i] && !tlbr[n - 1 - row + i] && !trbl[row + 1]) {
+        if(!col[i] && !tlbr[n - 1 - row + i] && !trbl[row + i]) {
             if(row === n - 1) {
                 result++;
             } else {
@@ -51,3 +51,4 @@ function helper(row, n, col, tlbr, trbl) {
     }
     return result;
 }
+module.exports = totalNQueens;
