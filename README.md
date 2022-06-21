@@ -319,4 +319,11 @@ This problem was asked by Amazon.
 Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
 
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+<h2>Problem 33</h2>
+This problem was asked by Facebook.
 
+Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
+It should run in O(N) time.
+
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
