@@ -327,3 +327,18 @@ Given a function that generates perfectly random numbers between 1 and k (inclus
 It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+<h2>Problem 34</h2>
+This problem was asked by Microsoft.
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+
+    *
+   / \
+  +   +
+ / \ / \
+3  2 4  5
+You should return 45, as it is (3 + 2) * (4 + 5).
