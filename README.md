@@ -397,5 +397,7 @@ For example, if the list is [-10, -10, 5, 2], we should return 500, since that's
 
 You can assume the list has at least three integers.
 
+<h2>Problem 41</h2>
+This problem was asked by Google.
 
-
+Given the head of a singly linked list, reverse it in-place.
