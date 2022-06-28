@@ -29,7 +29,7 @@ test('Checking if serialization and deserialization works', () => {
 expect(deserialize(serialize(node)).left.left.val).toEqual('left.left'); // Jest is used for testing if serialization and deserialization is working properly
 });
 ```
-
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problem-1/binarytree.js)
 
 <h2>Problem 2</h2>
 
@@ -388,3 +388,14 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 This problem was asked by Two Sigma.
 
 Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
+<h2>Problem 40</h2>
+This problem was asked by Facebook.
+
+Given a list of integers, return the largest product that can be made by multiplying any three integers.
+
+For example, if the list is [-10, -10, 5, 2], we should return 500, since that's -10 * -10 * 5.
+
+You can assume the list has at least three integers.
+
+
+
