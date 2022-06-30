@@ -409,3 +409,12 @@ Given a list of possibly overlapping intervals, return a new list of intervals w
 The input list is not necessarily ordered in any way.
 
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
+<h2>Problem 43</h2>
+ This problem was asked by Google.
+
+Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
+    a
+   / \
+  b   c
+ /
+d
