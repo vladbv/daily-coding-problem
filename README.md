@@ -424,3 +424,20 @@ This problem was asked Microsoft.
 Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+<h2>Problem 45</h2>
+This problem was asked by Google.
+
+Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
+
+Do this in linear time and in-place.
+
+For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+<h2>Problem 46</h2>
+This problem was asked by Google.
+
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
+ - set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
+ - get(key): gets the value at key. If no such key exists, return null.
+Each operation should run in O(1) time.
+
