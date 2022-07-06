@@ -29,7 +29,7 @@ test('Checking if serialization and deserialization works', () => {
 expect(deserialize(serialize(node)).left.left.val).toEqual('left.left'); // Jest is used for testing if serialization and deserialization is working properly
 });
 ```
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problem-1/binarytree.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-1/binarytree.js)
 
 <h2>Problem 2</h2>
 
@@ -40,6 +40,7 @@ Given an array of integers, find the first missing positive integer in linear ti
 For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 
 You can modify the input array in-place.
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-2/script.js)
 
 <h2>Problem 3</h2>
 
@@ -59,6 +60,8 @@ function cons(a, b) {
 ```
 Implement car and cdr.
 
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-3/script.js)
+
 <h2>Problem 4</h2>
 
 This problem was asked by Google.
@@ -67,6 +70,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Javascript), you can assume you have access to getPointer and dereferencePointer functions that converts between nodes and memory addresses.
 
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-4/script.js)
 <h2>Problem 5</h2>
 
 This problem was asked by Facebook.
@@ -76,7 +80,7 @@ Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the nu
 For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
-
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-5/script.js)
 <h2>Problem 6</h2>
 This problem was asked by Uber.
 
@@ -85,7 +89,7 @@ Given an array of integers, return a new array such that each element at index i
 For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
 
 Follow-up: what if you can't use division?
-
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-6/script.js)
 <h2>Problem 7</h2>
 This problem was recently asked by Google.
 
@@ -94,7 +98,7 @@ Given a list of numbers and a number k, return whether any two numbers from the 
 For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?
-
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-7/script.js)
 <h2>Problem 8</h2>
 
 This problem was asked by Google.
@@ -112,6 +116,8 @@ For example, the following tree has 5 unival subtrees:
    1   0
   / \
  1   1
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-8/script.js)
 <h2>Problem 9</h2>
 This problem was asked by Airbnb.
 
@@ -120,12 +126,13 @@ Given a list of integers, write a function that returns the largest sum of non-a
 For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
 
 Follow-up: Can you do this in O(N) time and constant space?
-
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-9/script.js)
 <h2>Problem 10</h2>
 This problem was asked by Apple.
 
 Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-10/script.js)
 <h2>Problem 11</h2>
 This problem was asked by Twitter.
 
@@ -134,7 +141,7 @@ Implement an autocomplete system. That is, given a query string s and a set of a
 For example, given the query string de and the set of strings [dog, deer, deal], return [deer, deal].
 
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
-
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-11/script.js)
 <h2>Problem 12</h2>
 This problem was asked by Amazon.
 
@@ -148,7 +155,7 @@ For example, if N is 4, then there are 5 unique ways:
 1, 1, 2
 2, 2
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
-
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-12/script.js)
 <h2>Problem 13</h2>
 
 This problem was asked by Amazon.
@@ -157,6 +164,7 @@ Given an integer k and a string s, find the length of the longest substring that
 
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-13/script.js)
 <h2>Problem 14</h2>
 
 This problem was asked by Google.
@@ -165,12 +173,15 @@ The area of a circle is defined as πr^2. Estimate π to 3 decimal places using 
 
 Hint: The basic equation of a circle is x2 + y2 = r2.
 
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-14/script.js)
+
 <h2>Problem 15</h2>
 
 This problem was asked by Facebook.
 
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-15/script.js)
 <h2>Problem 16</h2>
 
 Good morning! Here's your coding interview problem for today.
@@ -191,6 +202,7 @@ you should return:
  [9, 6, 3]]
 Follow-up: What if you couldn't use any extra space?
 
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-16/script.js)
 <h2>Problem 17</h2>
 This problem was asked by Twitter.
 
@@ -199,6 +211,7 @@ You run an e-commerce website and want to record the last N order ids in a log. 
 record(order_id): adds the order_id to the log
 get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N. You should be as efficient with time and space as possible.
 
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-17/script.js)
 <h2>Problem 18</h2>
 
 This problem was asked by Facebook.
@@ -206,6 +219,8 @@ This problem was asked by Facebook.
 A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-18/script.js)
 <h2>Problem 19</h2>
 
 This problem was asked by Snapchat.
@@ -213,6 +228,7 @@ This problem was asked by Snapchat.
 Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-19/script.js)
 
 <h2>Problem 20</h2>
 
@@ -223,6 +239,8 @@ Given a dictionary of words and a string made up of those words (no spaces), ret
 For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-1-20/problem-20/script.js)
 <h2>Problem 21</h2>
 
 This problem was asked by Google.
@@ -457,3 +475,30 @@ This problem was asked by Google.
 A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
+
+<h2>Problem 49</h2>
+This problem was asked by Google.
+
+In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. For example, if a path in the graph goes through "ABACA", the value of the path is 3, since there are 3 occurrences of 'A' on the path.
+
+Given a graph with n nodes and m directed edges, return the largest value path of the graph. If the largest value is infinite, then return null.
+
+The graph is represented with a string and an edge list. The i-th character represents the uppercase letter of the i-th node. Each tuple in the edge list (i, j) means there is a directed edge from the i-th node to the j-th node. Self-edges are possible, as well as multi-edges.
+
+For example, the following input graph:
+
+```javascript 
+ABACA
+[(0, 1),
+ (0, 2),
+ (2, 3),
+ (3, 4)]
+```
+Would have maximum value 3 using the path of vertices [0, 2, 3, 4], (A, A, C, A).
+
+The following input graph:
+```javascript
+A
+[(0, 0)]
+```
+Should return null, since we have an infinite loop.
