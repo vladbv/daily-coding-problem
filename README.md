@@ -557,3 +557,7 @@ Given such an array, find the index of the element in the array in faster than l
 For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
 
 You can assume all the integers in the array are unique.
+<h2>Problem 55</h2>
+This problem was asked by Google.
+
+Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
