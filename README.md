@@ -561,3 +561,11 @@ You can assume all the integers in the array are unique.
 This problem was asked by Google.
 
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+<h2>Problem 56</h2>
+This problem was asked by Dropbox.
+
+Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
+Implement an efficient sudoku solver.
+
+
