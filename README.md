@@ -623,5 +623,12 @@ Implement regular expression matching with the following special characters:
 * (asterisk) which matches zero or more of the preceding element That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
 For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
 
-Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+Given the regular expression ". * at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
+<h2>Problem 60</h2>
+
+This problem was asked by Yelp.
+
+Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
+
+For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].

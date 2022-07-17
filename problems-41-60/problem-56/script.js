@@ -46,7 +46,7 @@ function isValid(board, r, c, num) {
 		if(board[r][i] === num) return false; // check col
 
 		const squareRow = regionRow + Math.floor(i / 3);
-		const squareCol = regionCOl + (i % 3);
+		const squareCol = regionCol + (i % 3);
 		if(board[squareRow][squareCol] === num) return false;
 	}
 	return true;
