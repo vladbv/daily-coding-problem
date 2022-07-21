@@ -659,3 +659,8 @@ For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be
 Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
 
 Do this in O(N) time.
+<h2>Problem 64</h2>
+
+This question was asked by Wish.
+
+Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
