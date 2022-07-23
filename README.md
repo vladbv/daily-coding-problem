@@ -671,4 +671,10 @@ Determine whether a tree is a valid binary search tree.
 
 A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
 
+<h2>Problem 66</h2>
 
+This problem was asked by Google.
+
+Given two strings A and B, return whether or not A can be shifted some number of times to get B.
+
+For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb, return false.
