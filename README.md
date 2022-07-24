@@ -678,3 +678,9 @@ This problem was asked by Google.
 Given two strings A and B, return whether or not A can be shifted some number of times to get B.
 
 For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb, return false.
+<h2>Problem 67</h2>
+This problem was asked by Google.
+
+Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+
+For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
