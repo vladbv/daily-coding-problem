@@ -684,3 +684,25 @@ This problem was asked by Google.
 Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+<h2>Problem 68</h2>
+
+This problem was asked by Google.
+
+Invert a binary tree.
+
+For example, given the following tree:
+```javascript
+    a
+   / \
+  b   c
+ / \  /
+d   e f
+```
+should become:
+```javascript
+  a
+ / \
+ c  b
+ \  / \
+  f e  d
+```
