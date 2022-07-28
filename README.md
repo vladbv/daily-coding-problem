@@ -734,3 +734,7 @@ This problem was asked by Square.
 Assume you have access to a function toss_biased() which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
 
 Write a function to simulate an unbiased coin toss.
+<h2>Problem 71</h2>
+This problem was asked by Facebook.
+
+Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
