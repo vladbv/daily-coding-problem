@@ -753,3 +753,9 @@ This problem was asked by Microsoft.
 Given a number in the form of a list of digits, return all possible permutations.
 
 For example, given [1,2,3], return [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]].
+<h2>Problem 74</h2>
+This problem was asked by Lyft.
+
+Given a list of integers and a number K, return which contiguous elements of the list sum to K.
+
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4].
