@@ -764,4 +764,9 @@ This question was asked by Google.
 
 Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
 
+<h2>Problem 76</h2>
+This problem was asked by Facebook.
 
+Given a function f, and N return a debounced f of N milliseconds.
+
+That is, as long as the debounced f continues to be invoked, f itself will not be called for N milliseconds.
