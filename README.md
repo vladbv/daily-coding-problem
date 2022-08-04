@@ -774,3 +774,11 @@ That is, as long as the debounced f continues to be invoked, f itself will not b
 This problem was asked by Google.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
+<h2>Problem 78</h2>
+This problem was asked by Microsoft.
+
+Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element sequence is [1, 2, 3, 4]. Return its length: 4.
+
+Your algorithm should run in O(n) complexity.
