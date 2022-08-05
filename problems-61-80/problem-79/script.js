@@ -48,7 +48,7 @@ function minSteps(points) {
 
 function steps(point1, point2){
 	const [point1X, point1Y] = point1;
-	const [point2X, point2Y] = pont2;
+	const [point2X, point2Y] = point2;
 
 	const horizontalSteps = Math.abs(point1X - point2X);
 	const verticalSteps = Math.abs(point1Y - point2Y);
