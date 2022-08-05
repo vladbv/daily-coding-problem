@@ -805,3 +805,9 @@ Input: [(0, 0), (1, 1), (1, 2)]
 Output: 2
 
 It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
+<h2>Problem 80</h2>
+This problem was asked by Pinterest.
+
+Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
+
+For example, [2, 0, 1, 0] returns true while [1, 1, 0, 1] returns false.
