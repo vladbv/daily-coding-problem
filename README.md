@@ -805,6 +805,7 @@ Input: [(0, 0), (1, 1), (1, 2)]
 Output: 2
 
 It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
+<<<<<<< HEAD
 <h2>Problem 81</h2>
 This problem was asked by Cisco.
 
@@ -813,3 +814,18 @@ Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit
 For example, 10101010 should be 01010101. 11100010 should be 11010001.
 
 Bonus: Can you do this in one line?
+<h2>Problem 80</h2>
+This problem was asked by Pinterest.
+
+Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
+
+For example, [2, 0, 1, 0] returns true while [1, 1, 0, 1] returns false.
+<h2>Problem 81</h2>
+This problem was asked by Cisco.
+
+Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
+
+For example, 10101010 should be 01010101. 11100010 should be 11010001.
+
+Bonus: Can you do this in one line?
+
