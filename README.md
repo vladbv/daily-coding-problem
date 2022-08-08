@@ -828,4 +828,11 @@ Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit
 For example, 10101010 should be 01010101. 11100010 should be 11010001.
 
 Bonus: Can you do this in one line?
+<h2>Problem 82</h2>
+This problem was asked by Google.
+
+Given a word W and a string S, find all starting indices in S which are anagrams of W.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
 
