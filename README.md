@@ -835,4 +835,13 @@ Given a word W and a string S, find all starting indices in S which are anagrams
 
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
+<h2>Problem 83</h2>
+This problem was asked by Microsoft.
 
+Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
+
+  1
+ / \
+2   3
+   / \
+  4   5
