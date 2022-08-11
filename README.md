@@ -851,3 +851,21 @@ This problem was asked by Google.
 The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
 
 Given two strings, compute the edit distance between them.
+<h2>Problem 85</h2>
+
+This problem was asked by Facebook.
+
+Given a binary tree, return all paths from the root to leaves.
+
+For example, given the tree:
+```javascript
+   1
+  / \
+ 2   3
+    / \
+   4   5
+```
+
+it should return [[1, 2], [1, 3, 4], [1, 3, 5]].
+
+
