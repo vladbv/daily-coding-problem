@@ -868,4 +868,10 @@ For example, given the tree:
 
 it should return [[1, 2], [1, 3, 4], [1, 3, 5]].
 
+<h2>Problem 86</h2>
+This problem was asked by Amazon.
 
+Given a string, determine whether any permutation of it is a palindrome.
+
+For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
+ [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-86/script.js)
