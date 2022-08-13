@@ -875,3 +875,9 @@ Given a string, determine whether any permutation of it is a palindrome.
 
 For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
  [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-86/script.js)
+<h2>Problem 87</h2>
+This problem was asked by Two Sigma.
+
+Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
+ [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-87/script.js)
+
