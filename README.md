@@ -880,4 +880,30 @@ This problem was asked by Two Sigma.
 
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
  [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-87/script.js)
+<h2>Problem 88</h2>
+This problem was asked by Google.
 
+On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
+
+You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
+
+For example, given M = 5 and the list of bishops:
+```javascript
+(0, 0)
+(1, 2)
+(2, 2)
+(4, 0)
+```
+
+The board would look like this:
+
+```javascript
+[b 0 0 0 0]
+[0 0 b 0 0]
+[0 0 b 0 0]
+[0 0 0 0 0]
+[b 0 0 0 0]
+```
+You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
+
+ [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-88/script.js)
