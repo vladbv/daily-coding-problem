@@ -907,3 +907,8 @@ The board would look like this:
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
  [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-88/script.js)
+<h2>Problem 89</h2>
+This problem was asked by Zillow.
+
+Let's define a "sevenish" number to be one which is either a power of 7, or the sum of unique powers of 7. The first few sevenish numbers are 1, 7, 8, 49, and so on. Create an algorithm to find the nth sevenish number.
+ [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-89/script.js)
