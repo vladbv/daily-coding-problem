@@ -912,3 +912,18 @@ This problem was asked by Zillow.
 
 Let's define a "sevenish" number to be one which is either a power of 7, or the sum of unique powers of 7. The first few sevenish numbers are 1, 7, 8, 49, and so on. Create an algorithm to find the nth sevenish number.
  [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-89/script.js)
+<h2>Problem 90</h2>
+This problem was asked by Epic.
+
+The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
+```javascript
+1
+11
+21
+1211
+111221
+```
+As an example, the fourth term is 1211, since the third term consists of one 2 and one 1.
+
+Given an integer N, print the Nth term of this sequence.
+ [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-90/script.js)
