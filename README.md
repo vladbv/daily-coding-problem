@@ -927,3 +927,11 @@ As an example, the fourth term is 1211, since the third term consists of one 2 a
 
 Given an integer N, print the Nth term of this sequence.
  [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-90/script.js)
+<h2>Problem 91</h2>
+This problem was asked by Google.
+
+Given a string which we can delete at most k, return whether you can make a palindrome.
+
+For example, given waterrfetawx and a k of 2, you could delete f and x to get waterretaw.
+ [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-91/script.js)
+
