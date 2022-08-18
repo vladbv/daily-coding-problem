@@ -935,3 +935,12 @@ Given a string which we can delete at most k, return whether you can make a pali
 For example, given waterrfetawx and a k of 2, you could delete f and x to get waterretaw.
  [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-91/script.js)
 
+<h2>Problem 92</h2>
+This problem was asked by Google
+
+Given the head of a singly linked list, swap every two nodes and return its head.
+
+For example, given 1 -> 2 -> 3 -> 4, return 2 -> 1 -> 4 -> 3.
+ [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-92/script.js)
+
+
