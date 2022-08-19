@@ -943,4 +943,15 @@ Given the head of a singly linked list, swap every two nodes and return its head
 For example, given 1 -> 2 -> 3 -> 4, return 2 -> 1 -> 4 -> 3.
  [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-92/script.js)
 
+<h2>Problem 93</h2>
+This problem was asked by MongoDB.
+
+Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)).
+
+You can assume that such element exists.
+
+For example, given [1, 2, 1, 1, 3, 4, 0], return 1.
+
+ [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-93/script.js)
+
 
