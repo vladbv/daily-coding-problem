@@ -954,4 +954,12 @@ For example, given [1, 2, 1, 1, 3, 4, 0], return 1.
 
  [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-93/script.js)
 
+<h2>Problem 94</h2>
+This problem was asked by Google.
+
+Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
+
+For example, given the intervals [0, 3], [2, 6], [3, 4], [6, 9], one set of numbers that covers all these intervals is {3, 6}.
+ [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-94/script.js)
+
 
