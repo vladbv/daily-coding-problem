@@ -969,4 +969,13 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-95/script.js)
 
+<h2>Problem 96</h2>
+This problem was asked by LinkedIn.
+
+Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
+
+For example, given the list of points [(0, 0), (5, 4), (3, 1)], the central point (1, 2), and k = 2, return [(0, 0), (3, 1)].
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-96/script.js)
+
 
