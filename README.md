@@ -978,4 +978,12 @@ For example, given the list of points [(0, 0), (5, 4), (3, 1)], the central poin
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-96/script.js)
 
+<h2>Problem 97</h2>
+
+This problem was asked by Twitter.
+
+Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given [10, 7, 76, 415], you should return 77641510.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-97/script.js)
+
 
