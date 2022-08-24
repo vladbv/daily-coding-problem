@@ -986,4 +986,23 @@ Given a list of numbers, create an algorithm that arranges them in order to form
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-97/script.js)
 
+<h2>Problem 98</h2>
+
+This problem was asked by Goldman Sachs.
+
+Given a list of numbers L, implement a method sum(i, j) which returns the sum from the sublist L[i:j] (including i, excluding j).
+
+For example, given L = [1, 2, 3, 4, 5], sum(1, 3) should return sum([2, 3]), which is 5.
+
+You can assume that you can do some pre-processing. sum() should be optimized over the pre-processing step.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-98/script.js)
+
+<h2>Problem 99</h2>
+Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
+
+For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-99/script.js)
+
 
