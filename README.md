@@ -1020,4 +1020,14 @@ Find the total number of valid unlock patterns of length N, where 1 <= N <= 9.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-100/script.js)
 
+<h2>Problem 101</h2>
+This problem was asked by Facebook.
+
+Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
+
+For example, given ((), you could return (()). Given ))()(, you could return ()()()().
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-101/script.js)
+
 
