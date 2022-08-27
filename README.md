@@ -1030,4 +1030,22 @@ For example, given ((), you could return (()). Given ))()(, you could return ()(
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-101/script.js)
 
+<h2>Problem 102</h2>
+This problem was asked by Google.
+
+Given a set of distinct positive integers, find the largest subset such that every pair of elements in the subset (i, j) satisfies either i % j = 0 or j % i = 0.
+
+For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Given [1, 3, 6, 24], return [1, 3, 6, 24].
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-102/script.js)
+
+<h2>Problem 103</h2>.
+
+This problem was asked by Palantir.
+
+Write a program that checks whether an integer is a palindrome. For example, 121 is a palindrome, as well as 888. 678 is not a palindrome. Do not convert the integer into a string.
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-103/script.js)
+
 
