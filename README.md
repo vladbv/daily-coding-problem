@@ -1048,4 +1048,11 @@ Write a program that checks whether an integer is a palindrome. For example, 121
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-103/script.js)
 
+<h2>Problem 104</h2>
+This problem was asked by Facebook.
+
+Given an array of numbers of length N, find both the minimum and maximum using less than 2 * (N - 2) comparisons.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-104/script.js)
+
 
