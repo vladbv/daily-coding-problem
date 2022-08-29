@@ -1055,4 +1055,35 @@ Given an array of numbers of length N, find both the minimum and maximum using l
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-104/script.js)
 
+<h2>Problem 105</h2>
+This problem was asked by Stripe.
+
+Write a function to flatten a nested dictionary. Namespace the keys with a period.
+
+For example, given the following dictionary:
+
+```javascript
+{
+    "key": 3,
+    "foo": {
+        "a": 5,
+        "bar": {
+            "baz": 8
+        }
+    }
+}
+```
+it should become:
+
+```javascript
+{
+    "key": 3,
+    "foo.a": 5,
+    "foo.bar.baz": 8
+}
+```
+You can assume keys do not contain dots in them, i.e. no clobbering will occur.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-105/script.js)
+
 
