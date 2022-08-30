@@ -1027,8 +1027,7 @@ Given a string of parentheses, find the balanced string that can be produced fro
 
 For example, given ((), you could return (()). Given ))()(, you could return ()()()().
 
-
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-101/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-101/script.js)
 
 <h2>Problem 102</h2>
 This problem was asked by Google.
@@ -1037,7 +1036,8 @@ Given a set of distinct positive integers, find the largest subset such that eve
 
 For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Given [1, 3, 6, 24], return [1, 3, 6, 24].
 
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-102/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-102/script.js)
+
 
 <h2>Problem 103</h2>.
 
@@ -1045,15 +1045,15 @@ This problem was asked by Palantir.
 
 Write a program that checks whether an integer is a palindrome. For example, 121 is a palindrome, as well as 888. 678 is not a palindrome. Do not convert the integer into a string.
 
-
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-103/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-103/script.js)
 
 <h2>Problem 104</h2>
 This problem was asked by Facebook.
 
 Given an array of numbers of length N, find both the minimum and maximum using less than 2 * (N - 2) comparisons.
 
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-104/script.js)
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-104/script.js)
 
 <h2>Problem 105</h2>
 This problem was asked by Stripe.
@@ -1084,6 +1084,26 @@ it should become:
 ```
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-81-100/problem-105/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-105/script.js)
 
+<h2>Problem 106</h2>
+This problem was asked by Amazon.
 
+Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
+
+For example, for the input [1, 2, 3, 10], you should return 7.
+
+Do this in O(N) time.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-106/script.js)
+<h2>Problem 107</h2>
+This problem was asked by Bloomberg.
+
+There are N prisoners standing in a circle, waiting to be executed. The executions are carried out starting with the kth person, and removing every successive kth person going clockwise until there is no one left.
+
+Given N and k, write an algorithm to determine where a prisoner should stand in order to be the last survivor.
+
+For example, if N = 5 and k = 2, the order of executions would be [2, 4, 1, 5, 3], so you should return 3.
+
+Bonus: Find an O(log N) solution if k = 2.
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-107/script.js)
