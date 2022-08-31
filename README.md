@@ -1107,3 +1107,17 @@ For example, if N = 5 and k = 2, the order of executions would be [2, 4, 1, 5, 3
 
 Bonus: Find an O(log N) solution if k = 2.
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-107/script.js)
+<h2>Problem 108</h2>
+This problem was asked by Nest.
+
+Create a basic sentence checker that takes in a stream of characters and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
+
+We can consider a sentence valid if it conforms to the following rules:
+
+The sentence must start with a capital letter, followed by a lowercase letter or a space.
+All other characters must be lowercase letters, separators (,,;,:) or terminal marks (.,?,!,‽).
+There must be a single space between each word.
+The sentence must end with a terminal mark immediately following a word.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-108/script.js)
+
