@@ -1120,4 +1120,20 @@ There must be a single space between each word.
 The sentence must end with a terminal mark immediately following a word.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-108/script.js)
+<h2>Problem 109</h2>
+This problem was asked by Dropbox.
 
+Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
+
+Given a column number, return its alphabetical column id. For example, given 1, return "A". Given 27, return "AA".
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-109/script.js)
+<h2>Problem 110</h2>
+
+This problem was asked by Stripe.
+
+Given an integer n, return the length of the longest consecutive run of 1s in its binary representation.
+
+For example, given 156, you should return 3.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-110/script.js)
