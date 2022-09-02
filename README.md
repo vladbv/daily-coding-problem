@@ -1137,3 +1137,19 @@ Given an integer n, return the length of the longest consecutive run of 1s in it
 For example, given 156, you should return 3.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-110/script.js)
+<h2>Problem 111</h2>
+
+This problem was asked by Fitbit.
+
+Given a linked list, rearrange the node values such that they appear in alternating low -> high -> low -> high ... form. For example, given 1 -> 2 -> 3 -> 4 -> 5, you should return 1 -> 3 -> 2 -> 5 -> 4.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-111/script.js)
+<h2>Problem 112</h2>
+
+This problem was asked by Apple.
+
+A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return False.
+
+For example, given [-6, 0, 2, 40], you should return 2. Given [1, 5, 7, 8], you should return False.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-112/script.js)
