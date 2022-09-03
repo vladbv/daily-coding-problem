@@ -1153,3 +1153,21 @@ A fixed point in an array is an element whose value is equal to its index. Given
 For example, given [-6, 0, 2, 40], you should return 2. Given [1, 5, 7, 8], you should return False.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-112/script.js)
+<h2>Problem 113</h2>
+This problem was asked by Facebook.
+
+Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+
+For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The order does not matter.
+
+Follow-up: Can you do this in linear time and constant space?
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-113/script.js)
+<h2>Problem 114</h2>
+This problem was asked by Microsoft.
+
+You have n fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+
+Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-114/script.js)
