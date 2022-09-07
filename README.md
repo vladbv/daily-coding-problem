@@ -1196,4 +1196,13 @@ This problem was asked by PayPal.
 Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-117/script.js)
 
+<h2>Problem 118</h2>
+This problem was asked by Pinterest.
 
+The sequence [0, 1, ..., N] has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given [null, +, +, -, +], you could return [1, 2, 3, 0, 4].
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-118/script.js)
+<h2>Problem 119</h2>
+This problem was asked by Mozilla.
+
+A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-119/script.js)
