@@ -1206,3 +1206,19 @@ This problem was asked by Mozilla.
 
 A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-119/script.js)
+<h2>Problem 120</h2>
+This problem was asked by Facebook.
+
+Given a circular array, compute its maximum subarray sum in O(n) time. A subarray can be empty, and in this case the sum is 0.
+
+For example, given [8, -1, 3, 4], return 15 as we choose the numbers 3, 4, and 8 where the 8 is obtained from wrapping around.
+
+Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-120/script.js)
+<h2>Problem 121</h2>
+This problem was asked by Indeed.
+
+Given a 32-bit positive integer N, determine whether it is a power of four in faster than O(log N) time.
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-121/script.js)

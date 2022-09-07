@@ -60,3 +60,4 @@ graph.addEdge('2', '0');
 // Bridge: (1, 3)
 
 console.log(tarjanAlgorithm(graph));
+
