@@ -1221,4 +1221,11 @@ This problem was asked by Indeed.
 Given a 32-bit positive integer N, determine whether it is a power of four in faster than O(log N) time.
 
 
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-101-120/problem-121/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-121/script.js)
+<h2>Problem 122</h2>
+This problem was asked by IBM.
+
+Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
+
+For example, given aaabbc, you could return ababac. Given aaab, return None.
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-120/script.js)
