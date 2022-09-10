@@ -1237,3 +1237,10 @@ You are given an array of length 24, where each element represents the number of
 update(hour: int, value: int): Increment the element at index hour by value.
 query(start: int, end: int): Retrieve the number of subscribers that have signed up between start and end (inclusive). You can assume that all values get cleared at the end of the day, and that you will not be asked for start and end values that wrap around midnight.
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-123/script.js)
+<h2>Problem 124</h2>
+This problem was asked by LinkedIn.
+
+Given a linked list of numbers and a pivot k, partition the linked list so that all nodes less than k come before nodes greater than or equal to k.
+
+For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution could be 1 -> 0 -> 5 -> 8 -> 3.
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-124/script.js)
