@@ -1244,3 +1244,29 @@ Given a linked list of numbers and a pivot k, partition the linked list so that 
 
 For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution could be 1 -> 0 -> 5 -> 8 -> 3.
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-124/script.js)
+<h2>Problem 125</h2>
+This problem was asked by Flipkart.
+
+Snakes and Ladders is a game played on a 10 x 10 board, the goal of which is get from square 1 to square 100. On each turn players will roll a six-sided die and move forward a number of spaces equal to the result. If they land on a square that represents a snake or ladder, they will be transported ahead or behind, respectively, to a new square.
+
+Find the smallest number of turns it takes to play snakes and ladders.
+
+For convenience, here are the squares representing snakes and ladders, and their outcomes:
+```javascript
+snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}
+
+ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
+```
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-125/script.js)
+
+<h2>Problem 126</h2>
+This problem was asked by Google.
+
+The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
+
+For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+
+You may also use a list or array to represent a set.
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-126/script.js)
+
