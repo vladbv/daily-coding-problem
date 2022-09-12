@@ -1270,3 +1270,21 @@ For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2
 You may also use a list or array to represent a set.
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-126/script.js)
 
+<h2>Problem 127</h2>
+This problem was asked by Twitter.
+
+A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation. For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
+
+Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and the permutation [2, 1, 0], return ["c", "b", "a"].
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-127/script.js)
+<h2>Problem 128</h2>
+
+This problem was asked by IBM.
+
+Given an integer, find the next permutation of it in absolute order. For example, given 48975, the next permutation would be 49578.
+This problem was asked by IBM.
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-128/script.js)
+
