@@ -1288,3 +1288,31 @@ This problem was asked by IBM.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-128/script.js)
 
+<h2>Problem 129</h2>
+This problem was asked by Google.
+
+Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+
+For example, given the sequence 2, 4, 3, 8, 7, 5, you should construct the following tree:
+
+```javascript
+    5
+   / \
+  3   7
+ / \   \
+2   4   8
+
+```
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-129/script.js)
+
+<h2>Problem 130</h2>
+This problem was asked by Amazon.
+
+Given n numbers, find the greatest common denominator between them.
+
+For example, given the numbers [42, 56, 14], return 14.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-130/script.js)
+
+
+
