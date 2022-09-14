@@ -1315,4 +1315,34 @@ For example, given the numbers [42, 56, 14], return 14.
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-130/script.js)
 
 
+<h2>Problem 131</h2>
+This problem was asked by Facebook.
 
+Given a number in Roman numeral format, convert it to decimal.
+
+The values of Roman numerals are as follows:
+
+```javascript
+{
+    'M': 1000,
+    'D': 500,
+    'C': 100,
+    'L': 50,
+    'X': 10,
+    'V': 5,
+    'I': 1
+}
+```
+In addition, note that the Roman numeral system uses subtractive notation for numbers such as IV and XL.
+
+For the input XIV, for instance, you should return 14.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-131/script.js)
+<h2>Problem 132</h2>
+This problem was asked by Oracle.
+
+We say a number is sparse if there are no adjacent ones in its binary representation. For example, 21 (10101) is sparse, but 22 (10110) is not. For a given input N, find the smallest sparse number greater than or equal to N.
+
+Do this in faster than O(N log N) time.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-132/script.js)
