@@ -1346,3 +1346,17 @@ We say a number is sparse if there are no adjacent ones in its binary representa
 Do this in faster than O(N log N) time.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-132/script.js)
+<h2>Problem 133</h2>
+Given a list, sort it using this method: reverse(lst, i, j), which reverses lst from i to j.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-133/script.js)
+<h2>Problem 134</h2>
+This problem was asked by Apple.
+
+Gray code is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
+
+Given a number of bits n, generate a possible gray code for it.
+
+For example, for n = 2, one gray code would be [00, 01, 11, 10].
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-134/script.js)
