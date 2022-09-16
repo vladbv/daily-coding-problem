@@ -1,4 +1,4 @@
-I love the DailyCodingProblems and this is part of my daily routine, to improve my skills.
+I love the DailyCodingProblems and this is part of my daily routine to improve my skills, and learn something new.
 
 <h2>Problem 1</h2>
 
@@ -1360,3 +1360,26 @@ Given a number of bits n, generate a possible gray code for it.
 For example, for n = 2, one gray code would be [00, 01, 11, 10].
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-134/script.js)
+
+<h2>Problem 135</h2>
+
+This problem was asked by Snapchat.
+
+Given a string of digits, generate all possible valid IP address combinations.
+
+IP addresses must follow the format A.B.C.D, where A, B, C, and D are numbers between 0 and 255. Zero-prefixed numbers, such as 01 and 065, are not allowed, except for 0 itself.
+
+For example, given 2542540123, you should return ['254.25.40.123', '254.254.0.123'].
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-135/script.js)
+
+<h2>Problem 136</h2>
+This problem was asked by Etsy.
+
+Given an array of numbers N and an integer k, your task is to split N into k partitions such that the maximum sum of any partition is minimized. Return this sum.
+
+For example, given N = [5, 1, 2, 7, 3, 4] and k = 3, you should return 8, since the optimal partition is [5, 1, 2], [7], [3, 4].
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-136/script.js)
+
+
