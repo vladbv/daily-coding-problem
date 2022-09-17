@@ -1382,4 +1382,37 @@ For example, given N = [5, 1, 2, 7, 3, 4] and k = 3, you should return 8, since 
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-136/script.js)
 
+<h2>Problem 137</h2>
+
+This problem was asked by Google.
+
+Implement a PrefixMapSum class with the following methods:
+
+insert(key: str, value: int): Set a given key's value in the map. If the key already exists, overwrite the value.
+sum(prefix: str): Return the sum of all values of keys that begin with a given prefix.
+For example, you should be able to run the following code:
+```javascript
+mapsum.insert("columnar", 3)
+assert mapsum.sum("col") == 3
+```
+
+```javascript
+mapsum.insert("column", 2)
+assert mapsum.sum("col") == 5
+```
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-137/script.js)
+
+<h2>Problem 138</h2>
+
+This problem was asked by Quora.
+
+Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path.
+
+For example, given /usr/bin/../bin/./scripts/../, return /usr/bin/.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-138/script.js)
+
+
+
 
