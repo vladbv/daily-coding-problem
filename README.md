@@ -1415,4 +1415,14 @@ For example, given /usr/bin/../bin/./scripts/../, return /usr/bin/.
 
 
 
+<h2>Problem 139</h2>
+
+Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
+
+Don't use eval or a similar built-in parser.
+
+For example, given '-1 + (2 + 3)', you should return 4.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-121-140/problem-139/script.js)
+
 
