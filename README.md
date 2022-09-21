@@ -1490,4 +1490,37 @@ Given s1 = foo and s2 = bar, return false since the o cannot map to two characte
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-144/script.js)
 
+<h2>Problem 145</h2>
+
+This problem was asked by Slack.
+
+You are given an N by M matrix of 0s and 1s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
+
+You can only move right and down. 0 represents an empty space while 1 represents a wall you cannot walk through.
+
+For example, given the following matrix:
+```javascript
+[[0, 0, 1],
+ [0, 0, 1],
+ [1, 0, 0]]
+```
+Return 2, as there are only two ways to get to the bottom right:
+```javascript
+Right, down, down, right
+Down, right, down, right
+```
+The top left corner and bottom right corner will always be 0.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-145/script.js)
+
+<h2>Problem 146</h2>
+This problem was asked by Google.
+
+Given a string, return the first recurring character in it, or null if there is no recurring character.
+
+For example, given the string acbbac, return b. Given the string abcdef, return null.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-146/script.js)
+
+
 
