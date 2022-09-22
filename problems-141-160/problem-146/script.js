@@ -19,3 +19,23 @@ function findFRec(str) {
 }
 
 console.log(findFRec('acbcbac'));
+
+// Second way of doing it, by mapping out the letters
+
+function findFirstR(str){
+
+let obj = {};
+let strArr = str.split('');
+
+for(let i = 0; i < strArr.length; i++){
+	if(!obj[strArr[i]]) obj[strArr[i]] = 1;
+  else obj[strArr[i]] += 1;
+
+  if(obj[strArr[i]] == 2) return strArr[i];
+}
+return null
+
+
+}
+
+console.log(findFirstR('acdnac'));
