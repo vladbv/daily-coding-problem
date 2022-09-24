@@ -1582,4 +1582,51 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-149/script.js)
 
+<h2>Problem 150</h2>
+
+The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
+
+All the disks start off on the first rod in a stack. They are ordered by size, with the largest disk on the bottom and the smallest one at the top.
+
+The goal of this puzzle is to move all the disks from the first rod to the last rod while following these rules:
+
+You can only move one disk at a time.
+A move consists of taking the uppermost disk from one of the stacks and placing it on top of another stack.
+You cannot place a larger disk on top of a smaller disk.
+Write a function that prints out all the steps necessary to complete the Tower of Hanoi. You should assume that the rods are numbered, with the first rod being 1, the second (auxiliary) rod being 2, and the last (goal) rod being 3.
+
+For example, with n = 3, we can do this in 7 moves:
+
+```javascript
+Move 1 to 3
+Move 1 to 2
+Move 3 to 2
+Move 1 to 3
+Move 2 to 1
+Move 2 to 3
+Move 1 to 3
+```
+![tower of hanoi](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-150/tower-of-hanoi.png?raw=true);
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-150/script.js)
+
+<h2>Problem 151</h2>
+
+This problem was asked by Amazon.
+
+You are given a list of data entries that represent entries and exits of groups of people into a building. An entry looks like this:
+
+{"timestamp": 1526579928, count: 3, "type": "enter"}
+
+This means 3 people entered the building. An exit looks like this:
+
+{"timestamp": 1526580382, count: 2, "type": "exit"}
+
+This means that 2 people exited the building. timestamp is in Unix time.
+
+Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of (start, end) timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-151/script.js)
+
 
