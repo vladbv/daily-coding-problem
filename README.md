@@ -1629,4 +1629,37 @@ Find the busiest period in the building, that is, the time with the most people 
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-151/script.js)
 
+<h2>Problem 152</h2>
+
+This problem was asked by Alibaba.
+
+Given an even number (greater than 2), return two prime numbers whose sum will be equal to the given number.
+
+A solution will always exist. See Goldbach’s conjecture.
+
+Example:
+```javascript
+Input: 4
+Output: 2 + 2 = 4
+```
+If there are more than one solution possible, return the lexicographically smaller solution.
+
+If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then
+
+[a, b] < [c, d] If a < c OR a==c AND b < d.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-152/script.js)
+
+
+<h2>Problem 153</h2>
+This problem was asked by Square.
+
+Given a string and a set of characters, return the shortest substring containing all the characters in the set.
+
+For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
+
+If there is no substring containing all the characters in the set, return null.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-153/script.js)
+
 
