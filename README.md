@@ -1662,4 +1662,40 @@ If there is no substring containing all the characters in the set, return null.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-153/script.js)
 
+<h2>Problem 154</h2>
+This problem was asked by Google.
+
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
+
+For example, given the following rectangles:
+
+```javascript
+{
+    "top_left": [1, 4],
+    "dimensions": [3, 3] # width, height
+}
+```
+and
+```javascript
+{
+    "top_left": [0, 5],
+    "dimensions": [4, 3] # width, height
+}
+```
+
+return 6.
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-154/script.js)
+
+
+<h2>Problem 155</h2>
+This problem was asked by Facebook.
+
+A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
+
+Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-155/script.js)
+
 
