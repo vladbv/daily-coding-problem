@@ -1698,4 +1698,23 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-155/script.js)
 
+<h2>Problem 156</h2>
+This problem was asked by Amazon.
+
+Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
+
+For example, the inorder successor of 22 is 30.
+
+```javascript
+   10
+  /  \
+ 5    30
+     /  \
+   22    35
+```
+You can assume each node has a parent pointer.
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-156/script.js)
+
 
