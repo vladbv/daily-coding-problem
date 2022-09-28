@@ -1717,4 +1717,31 @@ You can assume each node has a parent pointer.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-156/script.js)
 
+<h2>Problem 157</h2>
+
+This problem was asked by Facebook.
+
+Write a function that rotates a list by k elements. For example, [1, 2, 3, 4, 5, 6] rotated by two becomes [3, 4, 5, 6, 1, 2]. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-157/script.js)
+
+<h2>Problem 158</h2>
+
+This problem was asked by Google.
+
+Given the root of a binary search tree, and a target K, return two nodes in the tree whose sum equals K.
+
+For example, given the following tree and K of 20
+
+```javascript
+    10
+   /   \
+ 5      15
+       /  \
+     11    15
+```
+Return the nodes 5 and 15.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-158/script.js)
+
 
