@@ -1786,4 +1786,29 @@ The name of a directory or sub-directory will not contain a period.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-159/script.js)
 
+<h2>Problem 160</h2>
+This problem was asked by Amazon.
+
+Implement a stack that has the following methods:
+
+push(val), which pushes an element onto the stack
+pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+Each method should run in constant time.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-141-160/problem-160/script.js)
+
+<h2>Problem 161</h2>
+This problem was asked by Amazon.
+
+An sorted array of integers was rotated an unknown number of times.
+
+Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
+
+For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
+
+You can assume all the integers in the array are unique.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-161/script.js)
+
 
