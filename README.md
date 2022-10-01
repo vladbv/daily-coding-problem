@@ -1811,4 +1811,22 @@ You can assume all the integers in the array are unique.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-161/script.js)
 
+<h2>Problem 162</h2>
+This question was asked by Apple.
+
+Given a binary tree, find a minimum path sum from root to a leaf.
+
+For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+
+```javascript
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1
+```
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-162/script.js)
+
 
