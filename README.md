@@ -1829,4 +1829,11 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 ```
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-162/script.js)
 
+<h2>Problem 163</h2>
+This problem was asked by Google.
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-163/script.js)
+
 
