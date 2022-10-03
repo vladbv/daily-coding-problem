@@ -1829,4 +1829,21 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 ```
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-162/script.js)
 
+<h2>Problem 163</h2>
+This question was asked by Google.
+
+Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+
+For example, given the following matrix:
+
+```javascript
+[[1, 0, 0, 0],
+ [1, 0, 1, 1],
+ [1, 0, 1, 1],
+ [0, 1, 0, 0]]
+```
+ Return 4.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-163/script.js)
+
 
