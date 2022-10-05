@@ -1869,4 +1869,11 @@ You may augment the node to add parent pointers or any other property you would 
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-165/script.js)
 
+<h2>Problem 166</h2>
+This problem was asked by Dropbox.
+
+Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-166/script.js)
+
 
