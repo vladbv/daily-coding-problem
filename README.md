@@ -1914,4 +1914,18 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-168/script.js)
 
+<h2>Problem 169</h2>
+
+This problem was asked by Facebook.
+
+Given a positive integer n, find the smallest number of squared integers which sum to n.
+
+For example, given n = 13, return 2 since 13 = 3^2 + 2^2 = 9 + 4.
+
+Given n = 27, return 3 since 27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9.
+
+Given n = 20, return 2 since 20 = 4^2 + 2^2 = 16 + 4.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-169/script.js)
+
 
