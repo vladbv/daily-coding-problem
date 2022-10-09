@@ -1928,4 +1928,14 @@ Given n = 20, return 2 since 20 = 4^2 + 2^2 = 16 + 4.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-169/script.js)
 
+<h2>Problem 170</h2>
+
+This problem was asked by Microsoft.
+
+Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
+
+For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20}, which has a difference of 5, which is the smallest possible difference.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-170/script.js)
+
 
