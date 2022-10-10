@@ -1,4 +1,4 @@
-I love the DailyCodingProblems and this is part of my daily routine to improve my skills, and learn something new.
+: love the DailyCodingProblems and this is part of my daily routine to improve my skills, and learn something new.
 
 <h2>Problem 1</h2>
 
@@ -1937,5 +1937,18 @@ Given an array of positive integers, divide the array into two subsets such that
 For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20}, which has a difference of 5, which is the smallest possible difference.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-170/script.js)
+
+<h2>Problem 171</h2>
+This problem was asked by Amazon.
+
+Implement a bit array.
+
+A bit array is a space efficient array that holds a value of 1 or 0 at each index.
+
+init(size): initialize the array with size
+set(i, val): updates index at i with val where val is either 1 or 0.
+get(i): gets the value at index i.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-171/script.js)
 
 
