@@ -1962,4 +1962,16 @@ For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-172/script.js)
 
+<h2>Problem 173</h2>
+This problem was asked by Google.
+
+Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
+set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
+get(key): gets the value at key. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-173/script.js)
+
 
