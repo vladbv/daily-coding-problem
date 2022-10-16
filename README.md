@@ -2022,4 +2022,12 @@ This problem was asked by Dropbox.
 Given the root to a binary search tree, find the second largest node in the tree.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-176/script.js)
+<h2>Problem 177</h2>
 
+This problem was asked by Google.
+
+Given a string of words delimited by spaces, reverse the words in string. For example, given hello world here, return here world hello
+
+Follow-up: given a mutable string representation, can you perform this operation in-place?
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-177/script.js)
