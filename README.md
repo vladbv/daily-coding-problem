@@ -2031,3 +2031,25 @@ Given a string of words delimited by spaces, reverse the words in string. For ex
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-177/script.js)
+
+<h2>Problem 178</h2>
+This problem was asked by Microsoft.
+
+Implement 3 stacks using a single list:
+
+```javascript
+class Stack:
+    def __init__(self):
+        self.list = []
+
+    def pop(self, stack_number):
+        pass
+
+    def push(self, item, stack_number):
+        pass
+```
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-178/script.js)
+
+
