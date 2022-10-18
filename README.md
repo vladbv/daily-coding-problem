@@ -2052,4 +2052,15 @@ class Stack:
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-178/script.js)
 
+<h2>Problem 179</h2>
+This problem was asked by Google.
+
+Given a string, split it into as few strings as possible such that each string is a palindrome.
+
+For example, given the input string racecarannakayak, return ["racecar", "anna", "kayak"].
+
+Given the input string abc, return ["a", "b", "c"].
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-179/script.js)
+
 
