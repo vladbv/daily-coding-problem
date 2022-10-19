@@ -1,5 +1,4 @@
-I love the DailyCodingProblems and this is part of my daily routine to improve my skills, and learn something new.
-
+I love the DailyCodingProblems and this is part of my daily routine to improve my skills, and learn something new.  
 <h2>Problem 1</h2>
 
 This problem was asked by Google.
@@ -2062,5 +2061,19 @@ For example, given the input string racecarannakayak, return ["racecar", "anna",
 Given the input string abc, return ["a", "b", "c"].
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-179/script.js)
+
+<h2>Problem 180</h2>
+This question was asked by Riot Games.
+
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+
+```javascript
+record(timestamp): records a hit that happened at timestamp
+total(): returns the total number of hits recorded
+range(lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive)
+Follow-up: What if our system has limited memory?
+```
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-180/script.js)
 
 
