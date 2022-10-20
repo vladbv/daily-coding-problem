@@ -2076,4 +2076,18 @@ Follow-up: What if our system has limited memory?
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-180/script.js)
 
+<h2>Problem 181</h2>
+
+This problem was asked by Google.
+
+We can determine how "out of order" and array A is by counting the number of inversions it has. Two elements A[i] and A[j] form an inversion if A[i] > A[j] but i < j. That is, a smaller elements appears after the larger element
+
+Given an array, account the number of inversions it has. Do this faster than O(N^2) time.
+
+You may assume each element in the array is distinct.
+
+For example a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions (2,1), (4,1) and (4,3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-181/script.js)
+
 
