@@ -2119,4 +2119,18 @@ And here are examples of non-numbers:
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-183/script.js)
 
+<h2>Problem 184</h2>
+
+This problem was asked by Facebook.
+
+You have a large array with most of the elements as zero.
+
+Use a more space-efficient data structure, SparseArray, that implements the same interface:
+
+init(arr, size): initialize with the original large array and size.
+set(i, val): updates index at i with val.
+get(i): gets the value at index i.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-184/script.js)
+
 
