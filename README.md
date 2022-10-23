@@ -2133,4 +2133,21 @@ get(i): gets the value at index i.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-184/script.js)
 
+<h2>Problem 185</h2>
+
+This problem was asked by Dropbox.
+
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+```javascript
+const functions = [];
+for (var i = 0; i < 10; i++) {
+  functions.push(() => i);
+}
+
+functions.forEach(f => console.log(f()));
+```
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-185/script.js)
+
 
