@@ -2088,7 +2088,7 @@ You may assume each element in the array is distinct.
 
 For example a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions (2,1), (4,1) and (4,3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-181/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-181/script.js)
 
 <h2>Problem 182</h2>
 This problem was asked by Jane Street.
@@ -2096,7 +2096,7 @@ This problem was asked by Jane Street.
 Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, generate() should return a tree whose size is unbounded but finite.
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-182/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-182/script.js)
 
 <h2>Problem 183</h2>
 
@@ -2117,7 +2117,7 @@ And here are examples of non-numbers:
 - "a -2"
 - "-"
 
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-183/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-183/script.js)
 
 <h2>Problem 184</h2>
 
@@ -2131,7 +2131,8 @@ init(arr, size): initialize with the original large array and size.
 set(i, val): updates index at i with val.
 get(i): gets the value at index i.
 
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-184/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-184/script.js)
+
 
 <h2>Problem 185</h2>
 
@@ -2148,6 +2149,32 @@ for (var i = 0; i < 10; i++) {
 functions.forEach(f => console.log(f()));
 ```
 
-[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-161-180/problem-185/script.js)
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-185/script.js)
 
+<h2>Problem 186</h2>
+
+
+This problem was asked by Google.
+
+You are given given a list of rectangles represented by min and max x- and y-coordinates. Compute whether or not a pair of rectangles overlap each other. If one rectangle completely covers another, it is considered overlapping.
+
+For example, given the following rectangles:
+
+```javascript
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+},
+{
+    "top_left": (-1, 3),
+    "dimensions": (2, 1)
+},
+{
+    "top_left": (0, 5),
+    "dimensions": (4, 3)
+}
+```
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-186/script.js)
 
