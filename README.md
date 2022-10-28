@@ -2202,4 +2202,10 @@ The first part contains all elements in lst that are less than x The second part
 For example, given x = 10 and lst = [9, 12, 3, 5, 14, 10, 10], one partition may be [9, 3, 5, 10, 10, 12, 14].
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-188/script.js)
+<h2>Problem 189</h2>
 
+This problem was asked by YouTube.
+
+Write a program that computes the length of the longest common subsequence of three given strings. For example, given epidemiologist, refrigeration, and supercalifragilisticexpialodocious, it should return 5, since the longest common subsequence is eieio.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-189/script.js)
