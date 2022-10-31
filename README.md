@@ -2242,3 +2242,10 @@ You come across a dictionary of sorted words in a language you've never seen bef
 For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'], you should return ['x', 'z', 'w', 'y'].
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-191/script.js)
+<h2>Problem 192</h2>
+This problem was asked by Microsoft.
+
+Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string abracadabra and the pattern abr, you should return [0, 7].
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-192/script.js)
+
