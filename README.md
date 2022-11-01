@@ -2249,3 +2249,23 @@ Given a string and a pattern, find the starting indices of all occurrences of th
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-192/script.js)
 
+<h2>Problem 193</h2>
+This problem was asked by Apple.
+
+Given the root of a binary tree, find the most frequent subtree sum. The subtree sum of a node is the sum of all values under a node, including the node itself.
+
+For example, given the following tree:
+
+```javascript
+  5
+ / \
+2  -5
+```
+
+Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5 - 5.
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-193/script.js)
+
+
+
