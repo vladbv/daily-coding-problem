@@ -2311,4 +2311,20 @@ Write a program that returns the maximum amount of money you can win with certai
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-196/script.js)
 
+<h2>Problem 197</h2>
+This problem was asked by PayPal.
+
+Given a string and a number of lines k, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the kth line, then back up to top right, and so on.
+
+For example, given the sentence thisisazigzag and k = 4, you should print:
+
+```javascript
+t     a     g
+ h   s z   a
+  i i   i z
+   s     g
+```
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-197/script.js)
+
 
