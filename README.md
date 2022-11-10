@@ -2339,4 +2339,11 @@ For example, if N = 1 and k = 5, we will need to try dropping the egg at every f
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-198/script.js)
 
+<h2>Problem 199</h2>
+This problem was asked by Apple.
+
+Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-199/script.js)
+
 
