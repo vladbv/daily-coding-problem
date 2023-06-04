@@ -2346,4 +2346,13 @@ Implement the function fib(n), which returns the nth number in the Fibonacci seq
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-199/script.js)
 
+<h2>Problem 200</h2>
+Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.
+
+A leaf is a node with no children.
+
+![binary tree](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-200/pathsum1.jpg?raw=true);
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-200/script.js)
+
 
