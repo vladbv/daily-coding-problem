@@ -2355,4 +2355,21 @@ A leaf is a node with no children.
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-181-200/problem-200/script.js)
 
+<h2>Problem 201</h2>
+
+Given an array of integers (which may include both positive and negative numbers), find the contiguous subarray which has the largest sum. Return that sum.
+Example:
+
+Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+Output: 6
+Explanation: The subarray [4, -1, 2, 1] has the largest sum = 6.
+Constraints:
+
+    The array will have at least one element.
+    The array size will not exceed 10,000 elements.
+    Each element in the array will be an integer within the range [-1000, 1000].
+
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-201/script.js)
+
 
