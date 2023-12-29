@@ -2372,4 +2372,29 @@ Constraints:
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-201/script.js)
 
+<h2>Problem 202</h2>
+Write a function that takes a string containing only three types of characters: '(', ')', '{', '}', '[' and ']', and checks if the input string is valid. An input string is valid if:
+
+    Open brackets must be closed by the same type of brackets.
+    Open brackets must be closed in the correct order.
+
+Example:
+
+    Input: "()"
+    Output: True
+    Input: "()[]{}"
+    Output: True
+    Input: "(]"
+    Output: False
+    Input: "([)]"
+    Output: False
+    Input: "{[]}"
+    Output: True
+
+Constraints:
+
+    The string length will not exceed 10,000 characters.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-202/script.js)
+
 
