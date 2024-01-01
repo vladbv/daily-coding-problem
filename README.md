@@ -2399,7 +2399,6 @@ Constraints:
 
 <h2>Problem 203</h2>
 
-Certainly! Let's consider a classic problem often encountered in competitive programming and algorithm design: the "Two Sum" problem.
 Task: "Two Sum"
 Problem Statement:
 
@@ -2418,5 +2417,21 @@ Constraints:
     -10^9 <= target <= 10^9
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-203/script.py)
+
+<h2>Problem 204</h2>
+Task: "Prime Factors"
+Problem Statement:
+
+Write a function that takes an integer n and returns a list of all its prime factors.
+Example:
+
+Input: n = 60
+Output: [2, 2, 3, 5]
+Explanation: The prime factors of 60 are 2, 2, 3, and 5 (since 60 = 2 * 2 * 3 * 5).
+Constraints:
+
+    2 <= n <= 10^6
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-204/script.py)
 
 
