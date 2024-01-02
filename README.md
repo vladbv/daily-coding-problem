@@ -2434,4 +2434,27 @@ Constraints:
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-204/script.py)
 
+<h2>Problem 205</h2>
+Problem 205
+Write a function fizz_buzz that takes an integer n and for each number from 1 to n, prints:
+
+    "Fizz" if the number is divisible by 3.
+    "Buzz" if the number is divisible by 5.
+    "FizzBuzz" if the number is divisible by both 3 and 5.
+    The number itself if it is not divisible by either 3 or 5.
+
+
+    Example:
+
+Input: n = 5
+Output:
+
+1
+2
+Fizz
+4
+Buzz
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-205/script.py)
+
 
