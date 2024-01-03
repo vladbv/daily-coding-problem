@@ -2457,4 +2457,20 @@ Buzz
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-205/script.py)
 
+<h2>Problem 206</h2>
+
+Problem Statement:
+
+Create a function is_palindrome that takes a string and returns True if the string is a palindrome and False otherwise. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).
+Example:
+
+    Input: "Racecar"
+    Output: True
+    Input: "Hello"
+    Output: False
+    Input: "A man, a plan, a canal, Panama"
+    Output: True
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-206/script.py)
+
 
