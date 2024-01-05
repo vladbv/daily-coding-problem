@@ -2468,16 +2468,16 @@ Example:
     Output: True
     Input: "Hello"
     Output: False
-    Input: "A man, a plan, a canal, Panama"
-    Output: True
+Input: "A man, a plan, a canal, Panama"
+Output: True
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-206/script.py)
 
 <h2>Problem 207</h2>
 The Collatz Conjecture (also known as the 3n + 1 conjecture) is a conjecture in mathematics that concerns sequences defined as follows: start with any positive integer n. Then each term is obtained from the previous term as follows:
 
-    If the previous term is even, the next term is one half of the previous term.
-    If the previous term is odd, the next term is 3 times the previous term plus 1.
+If the previous term is even, the next term is one half of the previous term.
+If the previous term is odd, the next term is 3 times the previous term plus 1.
 
 The conjecture is that no matter what value of n, the sequence will always reach 1.
 
@@ -2488,5 +2488,16 @@ Input: n = 6
 Output: [6, 3, 10, 5, 16, 8, 4, 2, 1]
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-207/script.py)
+
+<h2>Problem 208</h2>
+Problem Statement:
+
+Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
+Example:
+
+Input: [3, 0, 1]
+Output: 2
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-208/script.py)
 
 
