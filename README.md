@@ -2500,4 +2500,16 @@ Output: 2
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-208/script.py)
 
+<h2>Problem 209</h2>
+Problem Statement:
+
+A perfect number is a positive integer that is equal to the sum of its proper divisors. The smallest perfect number is 6, which is the sum of 1, 2, and 3. Write a function is_perfect_number that takes an integer n and returns True if n is a perfect number and False otherwise.
+Example:
+
+Input: n = 28
+Output: True
+Explanation: The divisors of 28 are 1, 2, 4, 7, 14, and 28. The sum of its proper divisors (excluding itself) is 1 + 2 + 4 + 7 + 14 = 28.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-209/script.py)
+
 
