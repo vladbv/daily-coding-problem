@@ -2512,4 +2512,16 @@ Explanation: The divisors of 28 are 1, 2, 4, 7, 14, and 28. The sum of its prope
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-209/script.py)
 
+<h2>Problem 210</h2>
+
+Problem Statement:
+
+The Sieve of Eratosthenes is an ancient algorithm used to find all prime numbers up to any given limit. Write a function sieve_of_eratosthenes that takes an integer n and returns a list of all prime numbers less than or equal to n.
+Example:
+
+Input: n = 10
+Output: [2, 3, 5, 7]
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-210/script.py)
+
 
