@@ -2524,4 +2524,21 @@ Output: [2, 3, 5, 7]
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-210/script.py)
 
+<h2>Problem 211</h2>
+
+Problem Statement:
+
+Given an unsorted array of integers nums, find the length of the longest consecutive elements sequence. The sequence must be strictly increasing and consecutive.
+Example:
+
+Input: nums = [100, 4, 200, 1, 3, 2]
+Output: 4
+Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore, its length is 4.
+Constraints:
+
+    The array could contain duplicate elements.
+    The order of elements in the output sequence does not matter.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-211/script.py)
+
 
