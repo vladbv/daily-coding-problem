@@ -2541,4 +2541,17 @@ Constraints:
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-211/script.py)
 
+<h2>Problem 212</h2>
+
+Problem Statement:
+
+Given an array of 2D points where each point is represented as a pair of integers [x, y], find the maximum number of points that lie on the same straight line.
+Example:
+
+Input: points = [[1,1],[2,2],[3,3]]
+Output: 3
+Explanation: All points lie on the same line.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-212/script.py)
+
 
