@@ -2567,4 +2567,10 @@ Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-213/script.py)
 
+<h2>Problem 214</h2>
+
+Given an n x n 2D matrix, rotate the matrix by 90 degrees (clockwise). You have to rotate the matrix in place, which means you have to modify the input 2D matrix directly without using another 2D matrix.
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-214/script.py)
+
 
