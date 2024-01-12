@@ -2573,4 +2573,13 @@ Given an n x n 2D matrix, rotate the matrix by 90 degrees (clockwise). You have 
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-214/script.py)
 
+<h2>Problem 215</h2>
+Given an array of strings strs, group the anagrams together. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+Example:
+
+Input: strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+Output: [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-215/script.py)
+
 
