@@ -2630,4 +2630,28 @@ Explanation:
 
 [Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-217/script.py)
 
+<h2>Problem 218</h2>
+
+Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent, according to the mapping on a standard phone keypad. Assume that you are not allowed to use 1 or 0 as they do not map to any letters.
+
+The mapping on the phone keypad is as follows:
+
+rust
+
+2 -> abc
+3 -> def
+4 -> ghi
+5 -> jkl
+6 -> mno
+7 -> pqrs
+8 -> tuv
+9 -> wxyz
+
+Example:
+
+Input: digits = "23"
+Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+
+[Solution](https://github.com/vladbv/daily-coding-problem/blob/main/problems-201-220/problem-218/script.py)
+
 
